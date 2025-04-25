@@ -12,19 +12,24 @@
 
   <!-- Body er for det som skal viser på nettsiden -->
   <body>
-    <header>
+    <header class="header">
       <img class="img" src="sun.png" alt="ein sol">
-      <nav>
+      <nav class="headerNav">
         <a href="">Heim</a>
         <a href="">Om meg</a>
         <a href="">Prosjekter</a>
       </nav>
     </header>
     <main>
-      <section>
+      <section class="heroSection">
         <h1>Velkommen? til min side</h1>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquidneque aut alias quam, adipisci maxime.</p>
-        <img class="img" src="angy kitty.png" alt="sur katt">
+        <div class="heroIntro">
+          <div class="heroText">
+            <p>Lorem ipsum dolor, sit amet.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut explicabo, atque alias quas saepe deleniti magnam ratione reprehenderit possimus voluptatum perferendis cumque iste illo optio eaque neque commodi sunt recusandae.</p>
+          </div>
+          <img class="img" src="angy kitty.png" alt="sur katt">
+        </div>
       </section>
       <section>
         <h2>Om meg</h2>
@@ -33,7 +38,16 @@
         <h2>Prosjekter</h2>
       </section>
     </main>
-    <footer>
+    <footer class="footer">
+      <div>
+        <nav class="footerNav">
+          <a href="">GitHub</a> 
+        </nav>
+        <nav>
+         <a href="">Portfolio</a>
+        </nav>
+      </div>
+    <img class="img" src="sun.png" alt="ein sol">
       <h3>Laget av Joakim</h3>
     </footer>
   </body>
